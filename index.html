@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HERO SECTION -->
+<section class="hero">
+
+    <!-- Top row -->
+    <div class="brand-row">
+        <div class="brand">IMAGE&nbsp;GALLERY</div>
+
+        <div class="services-menu">
+            <span onclick="filterImages('all', this)">All</span>
+            <span onclick="filterImages('nature', this)">Nature</span>
+            <span onclick="filterImages('tech', this)">Tech</span>
+            <span onclick="filterImages('city', this)">City</span>
+        </div>
+    </div>
+
+    <!-- Hero content -->
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Explore moments, stories, and creativity through images</h1>
+            <button class="cta-btn" onclick="goToGallery()">GET STARTED!</button>
+        </div>
+    </div>
+</section>
+
+<!-- GALLERY SECTION -->
+<section class="gallery-section" id="gallery">
+
+    <div class="gallery">
+
+        <!-- ================= NATURE ================= -->
+        <div class="image-card nature">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+        </div>
+        <div class="image-card nature">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e">
+        </div>
+        <div class="image-card nature">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+        </div>
+        <div class="image-card nature">
+            <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e">
+        </div>
+        <div class="image-card nature">
+            <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e">
+        </div>
+        <div class="image-card nature">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+        </div>
+        <div class="image-card nature">
+            <img src="https://images.unsplash.com/photo-1441716844725-09cedc13a4e7">
+        </div>
+        <div class="image-card nature">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+        </div>
+
+        <!-- ================= TECH ================= -->
+        <div class="image-card tech">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475">
+        </div>
+        <div class="image-card tech">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c">
+        </div>
+        <div class="image-card tech">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+        </div>
+        <div class="image-card tech">
+            <img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72">
+        </div>
+        <div class="image-card tech">
+            <img src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7">
+        </div>
+        <div class="image-card tech">
+            <img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769">
+        </div>
+        <div class="image-card tech">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d">
+        </div>
+        <div class="image-card tech">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475">
+        </div>
+
+        <!-- ================= CITY ================= -->
+        <div class="image-card city">
+            <img src="https://images.unsplash.com/photo-1494526585095-c41746248156">
+        </div>
+        <div class="image-card city">
+            <img src="https://images.unsplash.com/photo-1508057198894-247b23fe5ade">
+        </div>
+        <div class="image-card city">
+            <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df">
+        </div>
+        <div class="image-card city">
+            <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b">
+        </div>
+        <div class="image-card city">
+            <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000">
+        </div>
+        <div class="image-card city">
+            <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad">
+        </div>
+       
+        <div class="image-card city">
+            <img src="https://images.unsplash.com/photo-1508057198894-247b23fe5ade">
+        </div>
+
+    </div>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
