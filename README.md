@@ -1,3 +1,3 @@
 # Image-Gallery
 simple frontened project add various html css and javscript functionality are used make responsive userfriendly website
-![Uploading Screenshot (791).png…]()
+![image alt] (https://github.com/BalshetwarKrushna/Image-Gallery/blob/main/Screenshot%20(791).png?raw=true)
